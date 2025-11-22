@@ -5,26 +5,26 @@ export default function TecnologiaPage() {
   return (
     <ModuleTemplate
       title="Módulo Tecnologia"
-      description="Suporte técnico e serviços de TI"
+      description="Links para suporte técnico e serviços de TI"
       features={[
         {
           title: "Chamados Técnicos",
-          description: "Abra e acompanhe chamados de suporte técnico",
+          description: "Acesso ao sistema de abertura e acompanhamento de chamados",
           icon: HeadphonesIcon,
         },
         {
           title: "Agendamento de Laboratórios",
-          description: "Reserve laboratórios de informática",
+          description: "Links para reserva de laboratórios de informática",
           icon: Calendar,
         },
         {
-          title: "Acesso à Rede",
-          description: "Configurações e suporte para acesso à rede institucional",
+          title: "Suporte à Rede",
+          description: "Orientações e suporte para acesso à rede institucional",
           icon: Wifi,
         },
         {
-          title: "Empréstimo de Equipamentos",
-          description: "Solicite empréstimo de equipamentos tecnológicos",
+          title: "Equipamentos",
+          description: "Direcionamento para empréstimo de equipamentos tecnológicos",
           icon: Laptop,
         },
       ]}

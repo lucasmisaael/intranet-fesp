@@ -5,26 +5,26 @@ export default function CursosPage() {
   return (
     <ModuleTemplate
       title="Módulo Cursos"
-      description="Informações sobre graduação, pós-graduação e extensão"
+      description="Acesso às páginas e sistemas relacionados aos cursos"
       features={[
         {
           title: "Graduação",
-          description: "Informações sobre cursos de graduação",
+          description: "Links para páginas e sistemas dos cursos de graduação",
           icon: GraduationCap,
         },
         {
           title: "Pós-Graduação",
-          description: "Programas de mestrado, doutorado e especialização",
+          description: "Acesso aos programas de mestrado, doutorado e especialização",
           icon: Award,
         },
         {
           title: "Extensão",
-          description: "Cursos de extensão e atualização profissional",
+          description: "Direcionamento para cursos de extensão e atualização profissional",
           icon: BookOpen,
         },
         {
           title: "Corpo Docente",
-          description: "Informações sobre professores e coordenadores",
+          description: "Links para informações sobre professores e coordenadores",
           icon: Users,
         },
       ]}

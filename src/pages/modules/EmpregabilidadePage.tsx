@@ -5,26 +5,26 @@ export default function EmpregabilidadePage() {
   return (
     <ModuleTemplate
       title="Módulo Empregabilidade"
-      description="Estágios, convênios e oportunidades de carreira"
+      description="Acesso a informações sobre estágios, convênios e divulgação de vagas"
       features={[
         {
           title: "Vagas de Estágio",
-          description: "Confira oportunidades de estágio disponíveis",
+          description: "Links para oportunidades de estágio disponíveis",
           icon: Briefcase,
         },
         {
           title: "Vagas de Emprego",
-          description: "Oportunidades de trabalho para egressos",
+          description: "Divulgação de oportunidades de trabalho",
           icon: TrendingUp,
         },
         {
           title: "Convênios",
-          description: "Empresas e instituições parceiras",
+          description: "Informações sobre empresas e instituições parceiras",
           icon: Users,
         },
         {
           title: "Documentação",
-          description: "Documentos necessários para estágio e TCE",
+          description: "Acesso a documentos necessários para estágio e TCE",
           icon: FileText,
         },
       ]}

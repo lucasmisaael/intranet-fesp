@@ -5,26 +5,26 @@ export default function AdministrativoPage() {
   return (
     <ModuleTemplate
       title="Módulo Administrativo"
-      description="Processos administrativos e financeiros da instituição"
+      description="Direcionamentos para processos administrativos e financeiros da instituição"
       features={[
         {
           title: "Processos Financeiros",
-          description: "Gestão de pagamentos, orçamentos e prestação de contas",
+          description: "Links para gestão de pagamentos, orçamentos e prestação de contas",
           icon: DollarSign,
         },
         {
-          title: "Patrimônio",
-          description: "Controle e gestão do patrimônio institucional",
+          title: "Patrimônio e Manutenção",
+          description: "Acesso ao controle de patrimônio e solicitações de manutenção",
           icon: Package,
         },
         {
-          title: "Documentos",
-          description: "Acesso a documentos administrativos e formulários",
+          title: "Documentos Administrativos",
+          description: "Direcionamento para documentos e formulários administrativos",
           icon: FileText,
         },
         {
           title: "Solicitações Internas",
-          description: "Faça solicitações de serviços administrativos",
+          description: "Links para solicitações de serviços administrativos",
           icon: ClipboardList,
         },
       ]}

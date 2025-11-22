@@ -5,26 +5,26 @@ export default function BibliotecaPage() {
   return (
     <ModuleTemplate
       title="Módulo Biblioteca"
-      description="Acesso ao acervo digital e serviços de biblioteca"
+      description="Acesso aos serviços internos e acervo digital da biblioteca"
       features={[
         {
           title: "Acervo Digital",
-          description: "Pesquise e acesse livros, periódicos e materiais digitais",
+          description: "Links para acesso ao acervo digital, livros e periódicos",
           icon: BookOpen,
         },
         {
-          title: "Consulta ao Catálogo",
-          description: "Busque materiais disponíveis no acervo físico",
+          title: "Serviços Internos",
+          description: "Acesso aos serviços de consulta e reserva de materiais",
           icon: Search,
         },
         {
-          title: "Renovação de Empréstimos",
-          description: "Renove seus empréstimos de forma online",
+          title: "Informações de Atendimento",
+          description: "Horários, contatos e orientações de uso da biblioteca",
           icon: Clock,
         },
         {
-          title: "Reserva de Materiais",
-          description: "Reserve materiais disponíveis para retirada",
+          title: "Reservas",
+          description: "Sistema de reservas e renovação de empréstimos",
           icon: FileText,
         },
       ]}

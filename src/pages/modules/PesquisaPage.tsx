@@ -5,26 +5,26 @@ export default function PesquisaPage() {
   return (
     <ModuleTemplate
       title="Módulo Pesquisa"
-      description="Grupos de pesquisa, editais e projetos científicos"
+      description="Direcionamento para grupos de pesquisa, editais e redes de aprendizagem"
       features={[
         {
           title: "Grupos de Pesquisa",
-          description: "Conheça os grupos de pesquisa da instituição",
+          description: "Links para os grupos de pesquisa da instituição",
           icon: Users,
         },
         {
           title: "Editais",
-          description: "Editais de fomento e financiamento à pesquisa",
+          description: "Acesso a editais de fomento e financiamento à pesquisa",
           icon: FileText,
         },
         {
           title: "Projetos Científicos",
-          description: "Acompanhe projetos de pesquisa em andamento",
+          description: "Direcionamento para projetos de pesquisa em andamento",
           icon: FlaskConical,
         },
         {
           title: "Redes de Aprendizagem",
-          description: "Colaboração e networking entre pesquisadores",
+          description: "Links para redes de colaboração entre pesquisadores",
           icon: Network,
         },
       ]}
