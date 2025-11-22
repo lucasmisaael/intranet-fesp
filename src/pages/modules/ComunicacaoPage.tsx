@@ -5,26 +5,26 @@ export default function ComunicacaoPage() {
   return (
     <ModuleTemplate
       title="Módulo Comunicação e Mídia"
-      description="Notícias, eventos e serviços de comunicação"
+      description="Direcionamento para notícias, eventos e serviços de comunicação"
       features={[
         {
           title: "Notícias Institucionais",
-          description: "Acompanhe as últimas notícias da instituição",
+          description: "Acesso às últimas notícias e publicações institucionais",
           icon: Newspaper,
         },
         {
           title: "Eventos",
-          description: "Calendário de eventos e atividades institucionais",
+          description: "Links para calendário de eventos e atividades",
           icon: Calendar,
         },
         {
-          title: "Comunicados",
+          title: "Alertas e Comunicados",
           description: "Avisos importantes e comunicados oficiais",
           icon: Bell,
         },
         {
           title: "Serviços Gráficos",
-          description: "Solicite serviços de impressão e design",
+          description: "Solicitações de serviços de impressão e design",
           icon: Printer,
         },
       ]}

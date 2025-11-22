@@ -5,22 +5,22 @@ import { Calendar, FileText, ClipboardList, BookOpen } from "lucide-react";
 const features = [
   {
     title: "Calendário Acadêmico",
-    description: "Acesse o calendário letivo completo com todas as datas importantes",
+    description: "Links para calendários letivos e datas importantes",
     icon: Calendar,
   },
   {
-    title: "Regulamentos",
-    description: "Consulte regulamentos e normas acadêmicas vigentes",
+    title: "Regulamentos e Formulários",
+    description: "Acesso a regulamentos, normas acadêmicas e formulários",
     icon: FileText,
   },
   {
     title: "Solicitações",
-    description: "Faça solicitações acadêmicas online de forma rápida e simples",
+    description: "Links para solicitações acadêmicas e documentos",
     icon: ClipboardList,
   },
   {
     title: "Pautas Eletrônicas",
-    description: "Visualize e gerencie pautas de aulas e reuniões",
+    description: "Acesso às pautas eletrônicas e enquetes acadêmicas",
     icon: BookOpen,
   },
 ];
@@ -31,7 +31,7 @@ export default function AcademicoPage() {
       <div>
         <h1 className="text-3xl font-bold mb-2">Módulo Acadêmico</h1>
         <p className="text-muted-foreground">
-          Gerencie todas as atividades e processos acadêmicos da instituição
+          Acesso centralizado aos sistemas acadêmicos e documentos da instituição
         </p>
       </div>
 

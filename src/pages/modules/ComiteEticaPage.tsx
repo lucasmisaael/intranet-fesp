@@ -5,26 +5,26 @@ export default function ComiteEticaPage() {
   return (
     <ModuleTemplate
       title="Comitê de Ética em Pesquisa"
-      description="Procedimentos, formulários e submissões ao comitê de ética"
+      description="Links para procedimentos, formulários e prazos do comitê"
       features={[
         {
           title: "Procedimentos",
-          description: "Normas e procedimentos para submissão de projetos",
+          description: "Acesso às normas e procedimentos para submissão de projetos",
           icon: ShieldCheck,
         },
         {
           title: "Formulários",
-          description: "Baixe e preencha formulários necessários",
+          description: "Links para download de formulários necessários",
           icon: FileText,
         },
         {
           title: "Prazos",
-          description: "Calendário de reuniões e prazos de submissão",
+          description: "Direcionamento para calendário de reuniões e prazos",
           icon: Calendar,
         },
         {
           title: "Acompanhamento",
-          description: "Acompanhe o status de seus projetos submetidos",
+          description: "Links para acompanhamento de projetos submetidos",
           icon: CheckCircle,
         },
       ]}
